@@ -1,2 +1,2 @@
 # 2DGameEngine
-This is a 2D Game Engine written in Java.
+2DGameEngine is a simple game engine that allows easy integration for creating new 2D games.
