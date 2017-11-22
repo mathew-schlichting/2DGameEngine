@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceSets {
+    main.java.srcDir "JavaSource/main/"
+    main.resources.srcDir "Resources/"
+}
+
+
+repositories{
+    mavenCentral()
+}
+
