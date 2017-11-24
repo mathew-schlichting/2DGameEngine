@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'idea'
 
 sourceSets {
-    main.java.srcDir "JavaSource/main/"
+    main.java.srcDir "JavaSource/"
     main.resources.srcDir "Resources/"
 }
 
