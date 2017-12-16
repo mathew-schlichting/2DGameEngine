@@ -20,6 +20,7 @@ public class GameThread implements Runnable{
         this.gameHertz = gameHertz;
         this.timeBetweenTicks = 1000000000 / gameHertz;
         this.timeBetweenRenders = 1000000000 / fps;
+        GameLogger.logInfo("GameThread created");
     }
 
 

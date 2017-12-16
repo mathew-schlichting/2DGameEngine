@@ -2,6 +2,7 @@ package com.invert.engine.components;
 
 import com.invert.engine.exceptions.StillRunningException;
 import com.invert.engine.exceptions.UnableToCloseException;
+import com.invert.engine.utils.GameLogger;
 
 /**
  * Created by Mathew on 5/28/2017.
@@ -14,6 +15,7 @@ public class GameEngine {
 
     public GameEngine(GameComponent gameComponent, double gameHertz, double fps){
         thread = new GameThread(gameComponent, gameHertz, fps);
+        GameLogger.logInfo("Game Engine Created");
     }
 
 

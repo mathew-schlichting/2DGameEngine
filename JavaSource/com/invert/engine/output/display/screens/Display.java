@@ -31,7 +31,7 @@ public class Display implements Clickable{
     public void leftPress(int x, int y) {screen.leftPress(x, y);}
     public void leftRelease(int x, int y) {screen.leftRelease(x, y);}
     public void rightPress(int x, int y) {screen.rightPress(x, y);}
-    public void rightRelease(int x, int y) {screen.rightPress(x, y);}
+    public void rightRelease(int x, int y) {screen.rightRelease(x, y);}
     public void click(int x, int y) {screen.click(x, y);}
 
 
